@@ -5,6 +5,9 @@
 // so the text carries no line end that is not part of it: five paragraphs
 // joined by blank lines, no trailing newline.
 //
+// A runtime guard checks the text's length before anything is written, so a
+// future edit can never ship an empty or over-long entry by accident.
+//
 // Local run: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 // In the grader the output directory is /output.
 
@@ -22,6 +25,10 @@ const PARAGRAPHS = [
 ];
 
 const TEXT = PARAGRAPHS.join('\n\n');
+
+if (TEXT.length === 0 || TEXT.length > 1000) {
+  throw new Error(`entry text must be 1-1000 characters, got ${TEXT.length}`);
+}
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 writeFileSync(join(OUTPUT_DIR, 'entry.txt'), TEXT, 'utf8');

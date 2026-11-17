@@ -47,6 +47,14 @@ to each of them:
    slowing is physically grounded: a wind-up clock really does tick further
    apart and swing less far as its spring runs out.
 
+## The length guard
+
+Before writing anything, the program checks that the text is between 1 and
+1,000 characters long and stops with an error naming the actual count if it
+is not. The entry is fixed text, so the guard never fires on the entry as
+shipped — it is there so a later edit can never silently produce an entry
+the rules would refuse: empty, or past the 1,000-character limit.
+
 ## Running it
 
 Node 22 or later, standard library only, nothing to install:
@@ -63,5 +71,7 @@ network.
 ## Files
 
 - `main.ts` — the entry. Holds the text as five paragraphs and writes them
-  joined by blank lines, with no trailing newline.
+  joined by blank lines, with no trailing newline. Checks the text's length
+  before writing.
 - `README.md` — this file.
+- `LICENSE` — MIT license.
