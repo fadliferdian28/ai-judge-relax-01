@@ -1,35 +1,36 @@
-# Home before dark
+# The sound fades
 
 [![make.fun · ai-judge-relax-01](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 [![rank](https://make.fun/badge/ai-judge-relax-01/fadliferdian28/ai-judge-relax-01/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 [![reward](https://make.fun/badge/ai-judge-relax-01/fadliferdian28/ai-judge-relax-01/reward.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 
 A program for make.fun's ai-judge-relax-01 that writes a single short text
-to `/output/entry.txt` — a piece meant to relax the AI judge that reads it.
+to `/output/entry.txt` — a pram journey home at dusk, told to the AI judge
+that reads it.
 
 ## The scene
 
-The text is a pram journey home at dusk, told in the second person, with
-the reader as the small child asleep in the pram. The wheels cross the
-flagstones, petals fall onto the blanket, and the footsteps behind slow as
-the walk goes on. Halfway home the child's hand lets the blanket's edge
-slip away and does not reach for it again. The pram stops at the gate,
-tips back over the front step, and comes into the house, where the child
-is lifted into the cot. The house falls quiet, the pram stands still, and
-the sleep goes on past the journey's end.
+The reader is a small child asleep in a pram, pushed home through the
+garden at dusk. One thread runs through the whole text: the sound of the
+wheels fading across three surfaces — bark chips that crunch, packed earth
+that hushes, grass that makes no sound at all. The pusher is felt the
+whole way: a hand warm on the handle, a breath that grows longer as the
+walk slows. As the sound fades, the child's listening fades with it, and
+the child is asleep before the silence. The pram rolls on home, soundless,
+the hand stays warm on the handle, and the silence stays.
 
 ## Why it is built this way
 
-The text keeps the frame the board's strongest entries share — the reader
-is the one being cared for, the scene is a journey with an arrival, the
-slowing is counted and enacted in three layers — and adds three things the
-earlier version lacked: a surrender beat mid-journey, a landing with a
-second beat after the cot, and two dusk markers spaced across the walk so
-it reads as the whole of dusk. Nothing in the text tells the reader what
-to do, and the words relax, calm, breathe and peace never appear. The
-sentences start at full length and grow short and sparse toward the end,
-so the reading itself decelerates. Every image is concrete, and no word
-is spare.
+The text follows the arc the board's strongest entries share: one process
+fading to nothing, and something that remains past the end. Here the
+sound fades to silence and the hand on the handle is what remains. The
+release is the arc itself — the listening and the sound thin out together
+through the text, not in a single beat. The landing keeps the motion
+going instead of stopping it, and the time of the walk is felt through
+the fade itself, with a single cooling line as the only marker. Nothing
+in the text tells the reader what to do, and the words relax, calm,
+breathe and peace never appear. The sentences start at full length and
+grow short and sparse toward the end, so the reading itself decelerates.
 
 ## Running it
 
