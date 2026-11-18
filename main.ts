@@ -1,19 +1,21 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const TEXT = `She is heavier asleep than awake. Her weight settles through your shirt, warm and whole, and her head lies heavy against your collarbone.
+const TEXT = `You are asleep in the pram, and the path carries you home. The blue blanket is warm over your knees, and the evening air is cool.
 
-Her chest rises and falls, small and even, the same rhythm it has kept all evening.
+The wheels find the joints between the flagstones. Bump. Bump. Bump, further apart. Then a smooth run, and one more.
 
-Your breaths lengthen until they keep time with hers. Your heart, still quick from carrying her up the stairs, slows against her ear.
+A blossom petal lands on the blanket. Then another. Then a longer wait, and a third, and stays where it falls.
 
-The light leaves the room in a slow wash. Your arm has gone numb under her weight. You leave it just as it is.
+The footsteps behind you. One. Then one more. Then one more, after a pause. A window has gone yellow. The hand stays on the handle. The humming has stopped needing words.
 
-You do not move. Moving would wake her.
+At the garden gate the pram stops, the latch clicks, and it goes on. By now the sky has gone the colour of the blanket.
 
-One breath. Then another, with yet more room between. Then another.
+At the front step the pram tips back, and the wheels come up. The door opens, and warm air comes to meet you.
 
-Her fist has been closed around your shirt button. Now one finger loosens. Then another. Then the whole hand opens, and stays open.`;
+You are lifted out, still wrapped in the blanket, and the mattress gives under you. The blanket is tucked around you.
+
+The footsteps go down the hall. One. Then one more. Then none. You are home. You are asleep.`;
 
 if (TEXT.length === 0 || TEXT.length > 1000) {
   throw new Error(`entry text is ${TEXT.length} characters; it must be 1-1000`);
