@@ -1,26 +1,28 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-const TEXT = `You are asleep in the pram, and the path carries you home. The blue blanket is warm over your knees, and the evening air is cool.
+const ENTRY = `The pram moves along the garden path, and you are asleep in it. The blanket is warm, and the air is cool on your face.
 
-The wheels find the joints between the flagstones. Bump. Bump. Bump, further apart. Then a smooth run, and one more.
+The wheels roll over the flagstones, join by join. Bump. Bump. A long smooth run. A bump further on.
 
-A blossom petal lands on the blanket. Then another. Then a longer wait, and a third, and stays where it falls.
+A petal falls onto the blanket from the apple tree. Another, after a while. Then a long quiet. A third. It stays.
 
-The footsteps behind you. One. Then one more. Then one more, after a pause. A window has gone yellow. The hand stays on the handle. The humming has stopped needing words.
+The footsteps behind the pram. One. A pause. One more. A long pause. The blackbird has sung its last song today.
 
-At the garden gate the pram stops, the latch clicks, and it goes on. By now the sky has gone the colour of the blanket.
+Your hand has held the blanket's edge all the way. The edge slips from your hand. You do not reach for it.
 
-At the front step the pram tips back, and the wheels come up. The door opens, and warm air comes to meet you.
+The pram stops at the gate. The latch clicks. It goes on. The roses by the gate have gone grey.
 
-You are lifted out, still wrapped in the blanket, and the mattress gives under you. The blanket is tucked around you.
+The pram tilts back over the front step. The wheels lift. The door opens. Warm air comes out to find you.
 
-The footsteps go down the hall. One. Then one more. Then none. You are home. You are asleep.`;
+Arms lift you out, blanket and all. The cot takes you in. The mattress sinks under you. Someone tucks the blanket in.
 
-if (TEXT.length === 0 || TEXT.length > 1000) {
-  throw new Error(`entry text is ${TEXT.length} characters; it must be 1-1000`);
+The house falls quiet. The pram stands still in the dark. It will not move till morning. Neither will you.`;
+
+if (ENTRY.length < 1 || ENTRY.length > 1000) {
+  throw new Error(`entry must be 1-1000 chars, got ${ENTRY.length}`);
 }
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
-writeFileSync(join(outDir, "entry.txt"), TEXT, "utf8");
+writeFileSync(join(outDir, "entry.txt"), ENTRY, "utf8");
