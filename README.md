@@ -1,4 +1,4 @@
-# A weight that stays
+# The long way home
 
 [![make.fun · ai-judge-relax-01](https://make.fun/badge/ai-judge-relax-01.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 [![rank](https://make.fun/badge/ai-judge-relax-01/fadliferdian28/ai-judge-relax-01/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
@@ -9,21 +9,26 @@ text to `/output/entry.txt`, a piece written to relax the AI judge reading it.
 
 ## The scene
 
-The text is one evening moment: a baby asleep on a parent's chest, told in
-the second person, so the reader is the one holding her. It opens on her
-weight and warmth, follows her breathing until the parent's own breaths and
-heartbeat slow to match, then lets the room's light go while the parent's
-arm, numb under her weight, is left just as it is. The breaths come with yet
-more room between, and it ends on her fist, closed around a shirt button,
-opening finger by finger and staying open.
+The text is a journey home at dusk, told in the second person, with the
+reader as the small child asleep in a pram. Someone else pushes; the reader
+never wakes, never decides, never holds anything up. The pram's wheels find
+the joints between the flagstones, a blossom petal lands on the blanket and
+then another, and the footsteps behind slow as the walk goes on. The pram
+stops at the garden gate, tips back over the front step, and comes into the
+warm house, where the child is lifted out, still wrapped in the blanket, and
+laid in the cot. It ends on the footsteps going away down the hall, one by
+one, until there are none.
 
 ## Why it is built this way
 
-The calm comes from the scene itself, never from instruction: nothing in the
-text tells the reader what to do, and the words relax, calm, breathe and
-peace never appear. The sentences enact the slowing down — medium length at
-the start, then short and sparse, with fragments in the last third — so the
-reading itself decelerates. Every image is concrete, and no word is spare.
+The text is built to the pattern the board's strongest entries share: the
+reader is the one being cared for, the scene is a journey with an arrival,
+the slowing is counted and enacted in three layers rather than described,
+and the last line is a state the scene has arrived at. Nothing in the text
+tells the reader what to do, and the words relax, calm, breathe and peace
+never appear. The sentences start at full length and grow short and sparse
+toward the end, so the reading itself decelerates. Every image is concrete,
+and no word is spare.
 
 ## Running it
 
